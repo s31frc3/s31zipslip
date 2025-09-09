@@ -62,8 +62,3 @@ python3 s31zipslip.py -d '../../../../../../../etc/passwd' -f shadow -o backup.t
 ## How It Works
 
 The tool creates archives containing files with malicious paths that include directory traversal sequences (`../`). When vulnerable applications extract these archives without proper path sanitization, the files can be written to unexpected locations outside the intended extraction directory.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
