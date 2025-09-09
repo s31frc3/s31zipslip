@@ -1,6 +1,6 @@
 # s31zipslip - Zip Slip Vulnerability Archive Creator
 
-A powerful tool for creating archives with Zip Slip vulnerability for authorized security testing and penetration testing purposes. Now with Windows support!
+A powerful tool for creating archives with Zip Slip vulnerability for authorized security testing and penetration testing purposes.
 
 ## About
 
@@ -9,11 +9,9 @@ s31zipslip is a Python utility designed to create archive files (ZIP, JAR, TAR, 
 ## Features
 
 - Support for multiple archive formats: ZIP, JAR, TAR, TAR.GZ, TAR.BZ2
-- **Windows and Linux path traversal support**
+- Windows and Linux path traversal support
 - Customizable target paths and filenames
 - Flexible file content specification
-- Clean and intuitive command-line interface
-- Comprehensive error handling
 
 ## Usage
 
