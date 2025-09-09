@@ -14,7 +14,7 @@ s31zipslip is a Python utility designed to create archive files (ZIP, JAR, TAR, 
 - Clean and intuitive command-line interface
 - Comprehensive error handling
 
-## 📋 Usage
+## Usage
 
 ### Basic Syntax
 ```bash
