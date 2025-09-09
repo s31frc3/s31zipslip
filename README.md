@@ -1,21 +1,10 @@
 # s31zipslip - Zip Slip Vulnerability Archive Creator
 
-![Python](https://img.shields.io/badge/Python-3.6%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Security](https://img.shields.io/badge/Security-Testing-orange)
-
 A powerful tool for creating archives with Zip Slip vulnerability for authorized security testing and penetration testing purposes.
 
-## 📖 About
+## About
 
 s31zipslip is a Python utility designed to create archive files (ZIP, JAR, TAR, etc.) containing specially crafted paths that demonstrate the Zip Slip vulnerability (CVE-2018-1002200). This tool helps security professionals test their applications against directory traversal attacks through archive extraction.
-
-## ⚠️ Important Warning
-
-**This tool is for educational and authorized security testing purposes only.**
-- Use only on systems you own or have explicit permission to test
-- Never use this tool for illegal or malicious activities
-- The author is not responsible for any misuse of this tool
 
 ## 🚀 Features
 
@@ -29,11 +18,11 @@ s31zipslip is a Python utility designed to create archive files (ZIP, JAR, TAR, 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/s31zipslip.git
+git clone https://github.com/s31frc3/s31zipslip.git
 cd s31zipslip
 
 # Or download the script directly
-wget https://raw.githubusercontent.com/yourusername/s31zipslip/main/s31zipslip.py
+wget https://raw.githubusercontent.com/s31frc3/s31zipslip/main/s31zipslip.py
 ```
 
 ## 🛠️ Requirements
@@ -90,32 +79,7 @@ python3 s31zipslip.py -d '../../../../../../../etc/passwd' -f shadow -o backup.t
 
 The tool creates archives containing files with malicious paths that include directory traversal sequences (`../`). When vulnerable applications extract these archives without proper path sanitization, the files can be written to unexpected locations outside the intended extraction directory.
 
-## 🛡️ Protection Against Zip Slip
-
-To protect your applications:
-- Always validate and sanitize file paths during archive extraction
-- Use canonical paths to resolve relative paths
-- Extract files to a secure temporary directory
-- Implement proper access controls
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 🐛 Reporting Issues
-
-If you find any bugs or have suggestions, please open an issue on GitHub.
-
-## 📚 References
-
-- [Zip Slip Vulnerability](https://github.com/snyk/zip-slip-vulnerability)
-- [CVE-2018-1002200](https://nvd.nist.gov/vuln/detail/CVE-2018-1002200)
-- [OWASP Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal)
-
----
-
-**Remember: With great power comes great responsibility. Use this tool ethically and legally.**
