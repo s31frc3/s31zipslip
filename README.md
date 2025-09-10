@@ -1,4 +1,4 @@
-# s31zipslip - Zip Slip Vulnerability Archive Creator
+# Zip Slip Vulnerability Archive Creator
 
 A powerful tool for creating archives with Zip Slip vulnerability for authorized security testing and penetration testing purposes.
 
